@@ -220,7 +220,7 @@ module.exports = {
                 test: /^((?!\.module).)*s[ac]ss$/,
                 use: cssLoaders('sass-loader')
             },
-           {   // fore React-components
+            {   // fore React-components
                 test: /\.module\.less$/,
                 use: cssModuleLoaders('less-loader')
             },
